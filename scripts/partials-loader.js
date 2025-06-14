@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Load header
-    fetch('/partials/header.html')
+    fetch('./partials/header.html')
         .then(response => response.text())
         .then(data => {
             // Load header partial into #header-container (not #header)
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     // Load footer
-    fetch('/partials/footer.html')
+    fetch('./partials/footer.html')
         .then(response => response.text())
         .then(data => {
             const footer = document.getElementById('footer');
