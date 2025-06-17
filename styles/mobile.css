@@ -390,8 +390,8 @@
     .offer-columns {
         display: flex;
         flex-direction: column;
-        gap: 0.5em;
-        padding: 1em;
+        gap: 0;
+        padding: 0;
     }
     /* footer */
     .footer {
