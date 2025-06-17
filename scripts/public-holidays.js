@@ -1,6 +1,3 @@
-// Fetch and display upcoming public holidays for Cambodia using Calendarific API
-// Injects holidays into #public-holidays-list in contact.html
-
 const apiKey = (window.PUBLIC_HOLIDAY_API_KEY) || 'nTL5mMKHxQmHTNOdKuPABrC74Hy1oxtu';
 const country = 'KH'; // Cambodia
 const year = new Date().getFullYear();
