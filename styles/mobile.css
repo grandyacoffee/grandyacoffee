@@ -11,13 +11,16 @@
         object-fit: cover;
     }
     .main-logo {
-        position: absolute;
-        top: 1em;
+        position: fixed;
+        top: 1.5em;
         right: 1em;
-        width: 40%;
+        width: 30%;
         max-width: 200px;
         display: block;
         z-index: 100;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 0 2px #ffffff, 0 0 16px 2px #fff;
     }
     #header {
         display: none;
