@@ -86,7 +86,7 @@
         margin-top: 2em;
     }
     .social-icons a {
-        font-size: 12t;
+        font-size: 12pt;
         text-decoration: none;
         transition: color 0.2s;
         color: var(--background-color);
