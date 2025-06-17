@@ -1056,8 +1056,8 @@ p.slide-in-right.visible {
     width: fit-content;
 }
 #weather-widget img {
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     margin-right: 0.2em;
 }
 #weather-widget span {
