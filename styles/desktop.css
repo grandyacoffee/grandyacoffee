@@ -61,6 +61,7 @@ img {
     border: 2px solid #ffffff;
     font-weight: bolder;
     font-size: 12pt;
+    color: #000000;
 }
 .navbar {
     display: flex;
