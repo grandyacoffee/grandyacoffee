@@ -714,7 +714,7 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
 #weather-widget {
     flex-direction: column;
     order: 1;
-    margin-top: 1em;
+    margin-top: 3em;
     align-items: flex-start;
     text-align: left;
 }
