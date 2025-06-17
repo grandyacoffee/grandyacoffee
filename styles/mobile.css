@@ -711,11 +711,13 @@ h1.slide-in-left.visible, h2.slide-in-left.visible, h3.slide-in-left.visible, h4
   position: relative;
   z-index: 2;
 }
-  #weather-widget {
+#weather-widget {
+    flex-direction: column;
     order: 1;
     margin-top: 1em;
-    flex-direction: column;
-  }
+    align-items: flex-start;
+    text-align: left;
+}
 .thank-you-section {
     width: 80%;
     max-width: 100%;
