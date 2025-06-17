@@ -7,6 +7,7 @@
     img {
         width: 100%;
         height: auto;
+        display: block;
         object-fit: cover;
     }
     #header {
@@ -83,18 +84,28 @@
         color: var(--text-secondary-color);
     }
     /* hero styles */
-    .contactpage-hero, .header-hero, .menu-hero, .header-menu, .menu-footer, .about-hero {
-        object-fit: cover;
+    /* Ensure hero backgrounds fit and look good on mobile } */
+    .header-hero, .contactpage-hero, .about-hero, .header-menu, .menu-footer, .menu-hero{
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .menu-footer, .header-menu {
+        height: 35vh !important;
+    }
+    .menu-footer h1, .header-menu h1{
+        font-size: 18pt;
+        padding: 0;
     }
     .header-hero h1,
-    .header-menu h1,
     .contactpage-hero h1,
     .menu-hero h1,
-    .menu-footer h1,
     .about-hero h1 {
         font-size: 22pt;
         margin-bottom: 0;
-        padding: 0 1em;
+        padding: 0em;
     }
     .header-hero p,
     .header-menu p,
@@ -152,9 +163,6 @@
         padding: 0 2em;
         display: flex;
         flex: none;
-    }
-    .premium-coffee button  {
-        width: 50%;
     }
     .premium-coffee .premium-description {
         flex: none;
@@ -215,7 +223,7 @@
     }
     /* menu.html */
     #fnb-menu {
-        margin-top: 80px;
+        margin-top: 2em;
     }
     .fnb-buttons {
         display: flex;
@@ -248,7 +256,7 @@
     }
     /* menu-cards */
     .fnb-content {
-        padding: 1em 4em;
+        padding: 1em;
     }
     .drinks-category h2, .food-category h2 {
         font-size: 20pt;
@@ -305,7 +313,7 @@
         margin: 0;
     }
     #discover-menu {
-        padding: 2em 6em;
+        padding: 2em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -313,9 +321,9 @@
         align-content: center;
     }
     #discover-menu h2 {
-        font-size: 28pt;
+        font-size: 20pt;
         font-weight: 700;
-        text-align: center;
+        padding: 0 1em;
     }
     .discover-menu-cards {
         display: grid;
@@ -415,6 +423,9 @@
         text-align: left;
     }  
     /* footer ends here */
+    .menu-arrow {
+        font-size: 12pt;
+    }
     .menu-pagination {
         display: flex;
         justify-content: center;
@@ -638,25 +649,7 @@
         flex-direction: column;
     }
     #terms-info {
-        padding: 8em 6em 4em 6em;
-    }
-    .about-hero {
-        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806746-9195dd024cc0?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .menu-hero {
-        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806637-ed77277badd3?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .menu-footer {
-        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1749280806241-83c5d50dffe4?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        padding: 4em 2em 2em 2em;
     }
     /* Fade-in animation for images */
     img.fade-in {
