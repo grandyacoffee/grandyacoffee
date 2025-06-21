@@ -5,5 +5,13 @@
         "name":"Healthy Options",
         "description":"Start your day with our Healthy Options breakfast, featuring a vibrant selection of fresh vegetables, wholesome whole grains, and high-quality proteins. Each dish is thoughtfully crafted to provide balanced nutrition and lasting energy, perfect for fueling a productive morning. Enjoy a variety of flavors and textures, from crisp greens to hearty oats and lean proteins, all prepared with your well-being in mind. Our breakfast menu is designed to satisfy your taste buds while supporting a healthy lifestyle in a cozy, welcoming environment.",
         "price":"0.00"
+    },
+    {
+        "data-id": "breakfast-2",
+        "image-url": "https://i.pinimg.com/736x/0e/4f/2a/0e4f2aaf6a50aac4d8194a9513d36a52.jpg”,
+        "name": "Grilled Chicken Salad",
+        "description": "Egg tomatos Avocado and chicken",
+        "price": "3.00"
     }
+
 ]
