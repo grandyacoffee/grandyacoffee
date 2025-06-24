@@ -1099,6 +1099,7 @@ p.slide-in-right.visible {
 }
 
 /* Discount Modal Styles */
+
 #discount-form-modal {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -1210,13 +1211,12 @@ p.slide-in-right.visible {
   top: 50%;
   right: 0;
   z-index: 2000;
-  background:#222; 
-  color: #ffd500; 
+  background:black; 
+  color: #ffd500;
   border-radius: 18px 0 0 18px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
-    padding: 0 1.2em 2em 1.2em;
+  padding: 0 1.2em 0 1.2em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   min-width: 180px;
   max-width: 260px;
@@ -1225,7 +1225,7 @@ p.slide-in-right.visible {
   transition: transform 0.7s cubic-bezier(.77,0,.18,1), opacity 0.7s cubic-bezier(.77,0,.18,1);
 }
 #discount-slide.partial-out {
-  transform: translateY(-50%) translateX(70%);
+  transform: translateY(-50%) translateX(80%);
   opacity: 0.7;
   cursor: pointer;
 }
@@ -1241,33 +1241,17 @@ p.slide-in-right.visible {
   font-size: 1.3em;
   font-weight: 800;
   letter-spacing: 1px;
-  color: white;
+
 }
-#discount-slide p {
-  color: white;
+#discountform p {
   font-size: 20pt;
 }
-#discount-slide p:hover {
+#discountform p:hover {
     color: #ffd500;
     cursor: pointer;
 }
-#discount-slide button {
-  background: #ffd500;
-  color: #222;
-  border: none;
-  border-radius: 8px;
-  padding: 0.7em 1.2em;
-  font-size: 1em;
-  font-weight: 700;
-  cursor: pointer;
-  margin-top: 0.5em;
-  transition: background 0.2s, color 0.2s;
-}
-#discount-slide button:hover {
-  background: white;
-  color: #222;
-}
-#discount-slide-toggle {
+
+/* #discount-slide-toggle {
   position: absolute;
   top: 50%;
   left: -28px;
@@ -1287,10 +1271,65 @@ p.slide-in-right.visible {
   box-shadow: 0 2px 8px rgba(0,0,0,0.13);
   z-index: 10;
   transition: background 0.2s, color 0.2s;
-}
+} */
 #discount-slide.partial-out #discount-slide-toggle {
   left: -18px;
 }
 #discount-slide-toggle:hover {
   color: white;
+}
+/* Add to desktop.css for #discount-slide promo vertical bar */
+#discount-slide {
+  display: flex;
+  align-items: stretch;
+  margin: 2rem 0;
+  width: 100%;
+}
+.promo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: #FFD600;
+  color: #111;
+  min-width: 48px;
+  width: 48px;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2em 0;
+  margin: 0;
+}
+.promo p {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  font-size: 16pt;
+  letter-spacing: 0.1em;
+  margin: 0;
+  background: #FFD600;
+  color: #111;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+}
+.discountform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  border-radius: 0 12px 12px 0;
+  min-width: 220px;
+}
+#disccount-btn {
+  margin-top: 1.5rem;
+  background: #ffd500;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#disccount-btn:hover {
+  background: white;
 }
