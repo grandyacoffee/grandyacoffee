@@ -15,14 +15,14 @@
     },
     {
         "data-id": "hot-3",
-        "image-url": "https://images.unsplash.com/photo-1750817794422-b4dd90202f5c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image-url": "https://images.unsplash.com/photo-1750817980614-5495702e9162?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Café Latte",
         "description": "Espresso with steamed milk and foam.",
         "price": "1.60"
     },
     {
         "data-id": "hot-4",
-        "image-url": "https://images.unsplash.com/photo-1600056781444-55f3b64235e3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image-url": "https://images.unsplash.com/photo-1750817794422-b4dd90202f5c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Cappuccino",
         "description": "Espresso, steamed milk, and milk foam.",
         "price": "1.60"
