@@ -887,7 +887,7 @@ body, html {
 #disccount-btn:hover {
   background: white;
 }
-#header-hero h2 a, #about-hero h2 a, #contactpage-hero h2 a {
+/* #header-hero h2 a, #about-hero h2 a, #contactpage-hero h2 a {
     font-size: 10pt;
-}
+} */
 }
